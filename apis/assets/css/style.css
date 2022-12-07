@@ -1,0 +1,123 @@
+/* ---------------------------------------------
+Table of contents
+------------------------------------------------
+
+01. Header Section
+02. Main Section
+03. Footer Section
+
+--------------------------------------------- */
+
+.email_body {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5%;
+}
+
+/*
+---------------------------------------------
+Header Section
+---------------------------------------------
+*/
+
+header .logo_container {
+    text-decoration: none;
+    display: inline-block;
+}
+
+header .logo{
+    height: 29px;
+    width: 178px;
+    opacity: 1;
+}
+
+header .logo_text {
+    letter-spacing: 0;
+    color: #1A1818;
+    font-size: 12px;
+    opacity: 1;
+    margin: 0;
+}
+
+header .monogram {
+    display: inline-block;
+    float: right;
+    width: 43px;
+    height: 43px;
+    opacity: 1;
+}
+
+/*
+---------------------------------------------
+Main Section
+---------------------------------------------
+*/
+
+main {
+    margin: 100px 0;
+}
+
+main p {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0;
+    color: #1A1818;
+    word-wrap: break-word;
+    opacity: 1;
+}
+
+/*
+---------------------------------------------
+Footer Section
+---------------------------------------------
+*/
+
+footer p {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0;
+}
+
+footer p:nth-child(1) {
+    color: #1A1818;
+}
+
+footer a {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0;
+    text-decoration: none;
+    color: #818386;
+}
+
+footer .links {
+    margin-top: 20px;
+    position: relative;
+}
+
+footer .social {
+    margin-top: 5px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+footer .social img:not(:last-child) {
+    padding-right: 5px;
+}
+
+footer .policies {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+footer .policies a {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0;
+    color: #1A1818;
+    opacity: 1;
+}

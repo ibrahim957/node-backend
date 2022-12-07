@@ -1,0 +1,53 @@
+{
+  "name": "rydelinxapis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "lint:check": "npx eslint .",
+    "lint:fix": "npx eslint --fix ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@googlemaps/polyline-codec": "^1.0.28",
+    "agenda": "^4.4.0",
+    "aws-sdk": "^2.1106.0",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "express-group-router": "^2.1.0",
+    "faker": "^6.6.6",
+    "fcm-node": "^1.6.1",
+    "firebase": "^9.8.1",
+    "helmet": "^5.0.2",
+    "http": "^0.0.1-security",
+    "ipaddress": "^0.2.5",
+    "ipterate": "^1.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "nodemailer-express-handlebars": "^5.0.0",
+    "nodemon": "^2.0.15",
+    "qs": "^6.11.0",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.2",
+    "stripe": "^8.222.0",
+    "swagger-jsdoc": "^6.1.0",
+    "swagger-ui-express": "^4.3.0",
+    "twilio": "^3.74.0",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.2.0",
+    "eslint": "8.22.0"
+  }
+}
